@@ -1,0 +1,36 @@
+<header id="header" class="row" data-hook>
+  <figure id="logo" class="columns six" data-hook><%= logo %></figure>
+  <%= render :partial => 'spree/shared/nav_bar' %>
+  <%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
+  
+  <a class="gaslevel_image" href="http://www.gaslock.com">
+  	<img src="/images/gaslevel.png" alt="GASLevel">
+  </a>
+  
+  <ul class="header_top_bar">
+	  	<li class="about">
+	  		<a href="/about">אודות&nbsp;&nbsp;&nbsp;/</a>
+	  	</li>
+	  	<li class="contact_us">
+	  		<a href="/contact_us">צור קשר&nbsp;&nbsp;&nbsp;/</a>
+	  	</li>
+	  	<li class="account">
+	  		<a href="/account">מעקב הזמנות&nbsp;&nbsp;&nbsp;/</a>
+	  	</li>
+	  	<li class="login">
+	  		<a href="/login">כניסה לספקים</a>
+	  	</li>
+  	</ul>
+
+  	<ul class="main_bar">
+  		<li class="item_1">
+  			<a href=""><h3>מד-גז עם תצוגה חיצונית</h3><h3>GASLEVEL WITH EXTERNAL DISPLAY</h3> </a>
+  		</li>
+  		<li class="item_2">
+  			<a href=""><h3>מד-גז קלאסיק</h3> <h3>GASLEVEL CLASSIC</h3> </a>
+  		</li>
+  		<li class="item_3">
+  			<a href=""><h3>מד-גז (עט)</h3> <h3>GASLEVEL STICK</h3> </a>
+  		</li>
+  	</ul>
+</header>
