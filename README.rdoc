@@ -1,3 +1,6 @@
+[ ![Codeship Status for danielt69/lagas.co.il-v2](https://www.codeship.io/projects/f8ddcbf0-dd33-0131-cb50-0ae18d6d1274/status)](https://www.codeship.io/projects/24635)
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
