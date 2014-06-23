@@ -34,3 +34,17 @@ $(window).load(function() {
 		var new_text_cart = old_text_cart.replace("Cart", "עגלת קניות");
 		$('a.cart-info.full').text("new_text_cart");
 });
+
+// calling slider js
+
+$(document).ready(function() {
+    var slider = $('#slider').leanSlider({
+        directionNav: '#slider-direction-nav',
+        controlNav: '#slider-control-nav'
+    });
+});
+
+
+
+
+
