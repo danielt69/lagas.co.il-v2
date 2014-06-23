@@ -8,8 +8,8 @@
 Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
-  config.site_name = "user@example.com's Shop"
-  config.site_url = "10.104.214.119"
+  #config.site_name = "user@example.com's Shop"
+  #config.site_url = "10.104.214.119"
   config.allow_ssl_in_production = false
 
 end
