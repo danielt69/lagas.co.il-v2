@@ -11,6 +11,6 @@
  *= require_self
  *= require_tree .
  */
-.dd {
-	
+a {
+		color: #F81051;
 }
