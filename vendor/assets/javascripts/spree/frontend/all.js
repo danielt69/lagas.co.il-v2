@@ -34,8 +34,3 @@ $(window).load(function() {
 		var new_text_cart = old_text_cart.replace("Cart", "עגלת קניות");
 		$('a.cart-info.full').text("new_text_cart");
 });
-
-
-
-
-
