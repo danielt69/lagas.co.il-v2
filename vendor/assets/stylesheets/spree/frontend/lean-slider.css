@@ -43,6 +43,16 @@
     -moz-box-shadow: 0 0 3px rgba(0,0,0,0.4);
     -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.4);
     box-shadow: 0 0 3px rgba(0,0,0,0.4);
+    margin: 7px auto 64px;
+}
+.slider-wrapper:after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	height: 11px;
+	background: url(slider_shadow.png) no-repeat center top;
 }
 .lean-slider { overflow: hidden; }
 .lean-slider-slide {
