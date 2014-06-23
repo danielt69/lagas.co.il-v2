@@ -480,7 +480,7 @@ ul.items:after {
 div.bottom_wrapper {
 	height: 255px;
 	width: 100%;
-	margin: 10px 0;
+	margin: 57px 0;
 }
 div.bottom_wrapper .right {
 	float: right;
@@ -491,7 +491,7 @@ div.bottom_wrapper .right {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 24px 30px 24px 5px;
-	background: url(/images/standards.png) no-repeat center bottom #ebebeb;
+	background: url(/images/standards.png) no-repeat center 180px #ebebeb;
 }
 div.bottom_wrapper .left {
 	float: left;
