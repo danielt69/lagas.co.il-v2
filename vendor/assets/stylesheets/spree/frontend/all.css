@@ -9,6 +9,10 @@
  *= require_self
  *= require_tree .
 */
+
+@import url('https://fonts.googleapis.com/earlyaccess/opensanshebrew.css');
+
+
 a {
 	cursor: pointer;
 }
@@ -59,6 +63,7 @@ meter,
 progress {
 	font-family: 'Open Sans Hebrew' !important;
 }
+
 /*----------------------[Header]--------------------------*/
 #header {
 	width: 960px;
