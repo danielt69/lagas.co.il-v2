@@ -573,7 +573,7 @@ div#content h1 {
 	display: none;
 }
 div.wrap_about {
-	margin-top: 36px;
+	margin-top: 6px;
 }
 div.about_text > h3 {
 	font-size: 19px;
@@ -584,6 +584,7 @@ div.about_text > h3 {
 	background: url(/images/about_image.jpg) no-repeat 0 0;
 	height: 97px;
 	width:960px;
+	margin-bottom: 30px;
 }
 /*----------------------[end About]----------------------*/
 /*=====================================================================================================================================*/
