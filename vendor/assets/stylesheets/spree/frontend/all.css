@@ -59,6 +59,9 @@ meter,
 progress {
 	font-family: 'Open Sans Hebrew' !important;
 }
+aside#sidebar {
+	display: none;
+}
 /*----------------------[Header]--------------------------*/
 #header {
 	width: 960px;
@@ -531,4 +534,29 @@ div.bottom_wrapper .left span {
 	text-decoration: underline;
 }
 /*----------------------[end Homepage]----------------------*/
+/*=====================================================================================================================================*/
+
+/*----------------------[About]--------------------------*/
+div.about_text p {
+	font-size: 17px;
+	line-height: 31px;
+	color: #252525;
+}
+div#content h1 {
+	display: none;
+}
+div.wrap_about {
+	margin-top: 36px;
+}
+div.about_text > h3 {
+	font-size: 19px;
+	line-height: 34px;
+	color: #e2001a;
+}
+.about_image {
+	background: url(/images/about_image.jpg) no-repeat 0 0;
+	height: 97px;
+	width:960px;
+}
+/*----------------------[end About]----------------------*/
 /*=====================================================================================================================================*/
