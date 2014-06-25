@@ -416,21 +416,29 @@ h6.product-section-title {
 div#cart-form {
 	position: relative;
 }
-span.price.selling {
+#product-description span.price.selling {
 	position: absolute;
-	top: 28px;
-	right: 0;
+	top: 62px;
+	right: 125px;
+	color: #e2001a;
+	font-size: 21px;
+	font-weight: normal;
 }
 div#product-description h3 {
-		margin: 32px 0 0 0;
- padding-right: 23px;
+	margin: 32px 0 0 0;
+ 	padding-right: 33px;
 }
 div#product-description p {
-	margin: 0;
-	padding: 0 23px 0 0;
+	margin: 5px 0;
+	padding: 0 33px 0 0;
 	display: block;
 	height: 22px;
 	background: url(/images/v.png) no-repeat right center;
+	font-size: 17px;
+	line-height: 24px;
+}
+div#product-price .currency {
+	display: none;
 }
 /*----------------------[end Item]---------------------- */
 /*===================================================================================================================================== */
