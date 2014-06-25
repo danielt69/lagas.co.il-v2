@@ -437,9 +437,19 @@ div#product-description p {
 	font-size: 17px;
 	line-height: 24px;
 }
-
 div#product-price .currency {
 	display: none;
+}
+div#product-description {
+	position: relative;
+}
+div#product-description #old_price {
+	position: absolute;
+	top: 298px;
+	color: #959595;
+	font-size: 21px;
+	right: 34px;
+	text-decoration: line-through;
 }
 /*----------------------[end Item]---------------------- */
 /*===================================================================================================================================== */
