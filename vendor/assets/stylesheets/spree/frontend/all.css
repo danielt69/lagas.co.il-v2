@@ -402,19 +402,35 @@ footer#footer div.logo_ref {
 /*----------------------[Item]-------------------------- */
 #product-description .product-title {
 	display: block;
-}
-div#product-description p {
-	margin: 0;
-	padding: 0;
-}
-div#product-description h3 {
-	margin: 32px 0 0 0;
+	color: #e2001a;
+	font-size: 25px;
+	margin-top: 20px;
+	border: none;
 }
 h6.product-section-title {
 		display: none;
 }
 #product-price h6.product-section-title {
 	display: none;
+}
+div#cart-form {
+	position: relative;
+}
+span.price.selling {
+	position: absolute;
+	top: 28px;
+	right: 0;
+}
+div#product-description h3 {
+		margin: 32px 0 0 0;
+ padding-right: 23px;
+}
+div#product-description p {
+	margin: 0;
+	padding: 0 23px 0 0;
+	display: block;
+	height: 22px;
+	background: url(/images/v.png) no-repeat right center;
 }
 /*----------------------[end Item]---------------------- */
 /*===================================================================================================================================== */
