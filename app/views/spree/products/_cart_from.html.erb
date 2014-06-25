@@ -51,9 +51,14 @@
         <div class="add-to-cart">
           <%= number_field_tag :quantity, 1, :class => 'title', :min => 1 %>
           <%= button_tag :class => 'large primary', :id => 'add-to-cart-button', :type => :submit do %>
-            <%= Spree.t(:sss) %>
+            <%= Spree.t(:add_to_cart) %>
           <% end %>
         </div>
+        <ul class="safe_buy">
+          <li class="pos_0"></li>
+          <li class="pos_1"></li>
+          <li class="pos_2"></li>
+        </ul>
       </div>
     <% else %>
         <div id="product-price">
