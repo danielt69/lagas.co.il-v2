@@ -259,6 +259,7 @@ ul.main_bar li:hover {
 #wrapper {
 	background: #fff;
 	margin-bottom: 60px;
+	position: relative;
 }
 /*----------------------[end Wrapper]---------------------- *= require spree/frontend/spree_static_content
 */
@@ -506,6 +507,13 @@ div.columns.ten.omega.right_part {
 #product-images #main-image img {
 	max-height: 500px;
 	max-width: 500px;
+}
+div.pci_iamge {
+	width: 435px;
+	height: 217px;
+	background: url(/images/pci_image.png) no-repeat center center;
+	position: absolute;
+	top: 404px;
 }
 /*----------------------[end Item]---------------------- */
 /*===================================================================================================================================== */
