@@ -555,6 +555,13 @@ ul#product-thumbnails li a {
 #product-thumbnails li.selected {
 	border-color: #959595;
 }
+div.all_product_show:after {
+	content: "";
+	clear: both;
+	display: table;
+	visibility: hidden;
+	height: 0;
+}
 /*----------------------[end Item]---------------------- */
 /*===================================================================================================================================== */
 /*----------------------[Products]-------------------------- */
