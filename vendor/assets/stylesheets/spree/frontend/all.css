@@ -486,6 +486,7 @@ div#product-description #old_price {
 div.columns.six.alpha.left_part {
 	width: 500px;
 	float: left;
+	margin-top: 31px;
 }
 div.columns.ten.omega.right_part {
 	width: 430px;
