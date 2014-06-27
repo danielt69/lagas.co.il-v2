@@ -696,7 +696,7 @@ div.about_text > h3 {
 	color: #e2001a;
 }
 .about_image {
-	background: url(/images/about_image.jpg) no-repeat 0 0;
+	background: url(/images/about_image.jpg) no-repeat -56px 0;
 	height: 97px;
 	width:960px;
 	margin-bottom: 30px;
