@@ -417,14 +417,14 @@ h6.product-section-title {
 	position: relative;
 	width: 201px;
 	height: 44px;
-	top: 44px;
+	top: 54px;
 	right: 234px;
 }
 #product-description div#cart-form form,
 #product-description div#cart-form #inside-product-cart-form {
 	height: 100%;
 }
-#product-description .container .five.columns {
+#product-description .five.columns {
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -447,7 +447,7 @@ h6.product-section-title {
 }
 #product-description span.price.selling {
 	position: absolute;
-	top: 12px;
+	top: 8px;
 	right: -111px;
 	color: #e2001a;
 	font-size: 21px;
