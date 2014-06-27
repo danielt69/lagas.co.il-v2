@@ -413,27 +413,28 @@ h6.product-section-title {
 #product-price h6.product-section-title {
 	display: none;
 }
-div#cart-form {
+#product-description div#cart-form {
 	position: relative;
 	width: 201px;
 	height: 44px;
 	top: 51px;
 	right: 234px;
 }
-div#cart-form form,
-div#cart-form #inside-product-cart-form {
+#product-description div#cart-form form,
+#product-description div#cart-form #inside-product-cart-form {
 	height: 100%;
 }
-.container .five.columns {
+#product-description  .container .five.columns {
 	width: 100%;
 	height: 100%;
 	margin: 0;
 }
-.add-to-cart {
+#product-description  .add-to-cart {
 	width: 100%;
 	height: 100%;
+	margin: 0;
 }
-button#add-to-cart-button {
+#product-description button#add-to-cart-button {
 	width: 100%;
 	height: 100%;
 	background: #e2001a;
