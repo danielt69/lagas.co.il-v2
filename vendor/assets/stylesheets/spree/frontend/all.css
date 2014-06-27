@@ -259,6 +259,7 @@ ul.main_bar li:hover {
 #wrapper {
 	background: #fff;
 	margin-bottom: 60px;
+	position: relative;
 }
 /*----------------------[end Wrapper]---------------------- *= require spree/frontend/spree_static_content
 */
@@ -513,6 +514,13 @@ div#thumbnails {
 	top: 100%;
 	width: 100%;
 	right: 0;
+}
+div.pci_iamge {
+	width: 435px;
+	height: 217px;
+	background: url(/images/pci_image.png) no-repeat center center;
+	position: absolute;
+	top: 404px;
 }
 /*----------------------[end Item]---------------------- */
 /*===================================================================================================================================== */
