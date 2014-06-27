@@ -488,6 +488,7 @@ div.columns.six.alpha.left_part {
 	width: 500px;
 	float: left;
 	margin-top: 31px;
+	height: auto;
 }
 div.columns.ten.omega.right_part {
 	width: 430px;
@@ -495,12 +496,12 @@ div.columns.ten.omega.right_part {
 }
 .all_product_show #product-images {
 	width: 100%;
-	height: 500px;
+	height: 432px;
 	display: table;
 	position: relative;
 }
 .all_product_show #product-images #main-image {
-	height: 498px;
+	height: auto;
 	width: 100%;
 	display: table-cell;
 	vertical-align: middle;
@@ -511,9 +512,9 @@ div.columns.ten.omega.right_part {
 }
 div#thumbnails {
 	position: absolute;
-	top: 100%;
+	top: 102%;
 	width: 100%;
-	right: 0;
+	right: -6px;
 }
 div.pci_iamge {
 	width: 435px;
@@ -521,6 +522,23 @@ div.pci_iamge {
 	background: url(/images/pci_image.png) no-repeat center center;
 	position: absolute;
 	top: 404px;
+}
+#product-images #product-thumbnails li {
+	background-color: white;
+	width: 120px;
+	height: 120px;
+	display: table;
+}
+ul#product-thumbnails li a {
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+#product-thumbnails li a img {
+	margin: 0 auto;
+	display: block;
+	padding: 0;
 }
 /*----------------------[end Item]---------------------- */
 /*===================================================================================================================================== */
