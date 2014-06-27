@@ -24,6 +24,7 @@ $( document ).ready(function() {
 	$('#nav-bar .pos_1 a ').text('הרשם');
 
 	$('input#keywords').attr("placeholder", "");
+	$('#add-to-cart-button').text('הזמן עכשיו');
 });
 
 

@@ -417,14 +417,14 @@ h6.product-section-title {
 	position: relative;
 	width: 201px;
 	height: 44px;
-	top: 51px;
+	top: 44px;
 	right: 234px;
 }
 #product-description div#cart-form form,
 #product-description div#cart-form #inside-product-cart-form {
 	height: 100%;
 }
-#product-description  .container .five.columns {
+#product-description .container .five.columns {
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -437,15 +437,17 @@ h6.product-section-title {
 #product-description button#add-to-cart-button {
 	width: 100%;
 	height: 100%;
-	background: url(/images/small_btn_arrow.png) no-repeat 0px center #e2001a;
+	background: url(/images/small_btn_arrow.png) no-repeat 20px center #e2001a;
 	font-size: 21px;
 	line-height: 32px;
-	padding: 0;
+	padding: 0 30px 4px 0;
+	text-align: right;
 	font-weight: normal;
+	border: none;
 }
 #product-description span.price.selling {
 	position: absolute;
-	top: 9px;
+	top: 12px;
 	right: -111px;
 	color: #e2001a;
 	font-size: 21px;
