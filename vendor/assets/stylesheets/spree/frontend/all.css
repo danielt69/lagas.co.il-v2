@@ -483,6 +483,29 @@ div#product-description #old_price {
 .add-to-cart #quantity {
 	display: none;
 }
+div.columns.six.alpha.left_part {
+	width: 500px;
+	float: left;
+}
+div.columns.ten.omega.right_part {
+	width: 430px;
+	margin-left: 20px;
+}
+.all_product_show #product-images {
+	width: 100%;
+	height: 500px;
+	display: table;
+}
+.all_product_show #product-images #main-image {
+	height: 498px;
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+#product-images #main-image img {
+	max-height: 500px;
+	max-width: 500px;
+}
 /*----------------------[end Item]---------------------- */
 /*===================================================================================================================================== */
 /*----------------------[Products]-------------------------- */
