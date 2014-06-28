@@ -35,15 +35,16 @@ $( document ).ready(function() {
 	  $('.content_how_it_works').removeClass('active');
 	});
 
-});
-
-
-$(window).load(function() {
-		//Header change text Cart
+	//Header change text Cart
 		$('#link-to-cart a .amount').remove();
 		var old_text_cart = $('a.cart-info.full').text();
 		var new_text_cart = old_text_cart.replace("Cart", "עגלת קניות");
 		$('a.cart-info.full').text("new_text_cart");
+});
+
+
+$(window).load(function() {
+		
 });
 
 // calling slider js
@@ -53,6 +54,7 @@ $(document).ready(function() {
         directionNav: '#slider-direction-nav',
         controlNav: '#slider-control-nav'
     });
+
 });
 
 
