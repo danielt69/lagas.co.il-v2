@@ -620,7 +620,9 @@ ul.good_for {
 div.left_video {
 	width: 480px;
 	float: left;
-	height: 320px;
+	height: 330px;
+	text-align: left;
+	padding-top: 16px;
 }
 a.download {
 	font-size: 17px;
@@ -631,6 +633,17 @@ a.download {
 }
 div.content_image {
 	margin-top: 14px;
+}
+div.all_product_show {
+	margin-bottom: 53px;
+}
+div.content_technical_details,
+div.content_how_it_works {
+	display: none;
+}
+div.content_technical_details.active,
+div.content_how_it_works.active {
+	display: block;
 }
 /*----------------------[end Item]---------------------- */
 /*===================================================================================================================================== */
