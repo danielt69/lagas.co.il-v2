@@ -9,3 +9,47 @@
  *= require_self
  *= require_tree .
 */
+
+#admin-menu {
+	background-color: #686A6B;
+}
+#admin-menu li a:hover, #admin-menu li.selected a {
+	background-color: #2DB4A2;
+}
+#admin-menu li a:hover:after, #admin-menu li.selected a:after {
+	border-top: 5px solid #2DB4A2;
+}
+#sub-menu {
+	background-color: #2DB4A2;
+}
+#sub-menu li.selected a:after, 
+#sub-menu li a:hover:after, 
+#sub-menu #admin-menu li.selected a:after, 
+#admin-menu #sub-menu li.selected a:after {
+	border-top: 5px solid #2DB4A2;
+}
+input[type="submit"], input[type="button"], button, .button {
+	background-color: #494D52;
+}
+input[type="submit"]:hover, input[type="button"]:hover, button:hover, .button:hover {
+	background-color: #2DB4A2;
+}
+fieldset legend {
+	color: #767772;
+	font-size: 21px;
+}
+#content-header {
+	background-color: #E1E2E4;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #6C6E6F;
+}
+table thead th {
+	background-color: #E1E2E4;
+}
+table tbody tr:hover td {
+	background-color: #F3F3F3;
+}
+table tbody tr.even td {
+	background-color: #F3F3F3;
+}
