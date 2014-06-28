@@ -217,7 +217,7 @@ ul.main_bar {
 	height: 63px;
 }
 ul.main_bar li {
-	width: auto;
+	width: 33%;
 	height: 100%;
 	position: relative;
 	z-index: 1;
@@ -894,6 +894,7 @@ ul#products li {
 }
 #user-info {
 	margin-bottom: 15px;
+	border: none;
 	border-bottom: 1px solid #d9d9db;
 	padding: 10px;
 }

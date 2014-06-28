@@ -10,3 +10,7 @@
 //= require spree/backend
 
 //= require_tree .
+
+$( document ).ready(function() {
+	$('.fullwidth-menu li').last().remove();	
+});
