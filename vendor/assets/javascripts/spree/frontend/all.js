@@ -25,6 +25,16 @@ $( document ).ready(function() {
 
 	$('input#keywords').attr("placeholder", "");
 	$('#add-to-cart-button').text('הזמן עכשיו');
+
+	$('ul.links_separat li.pos_0').click(function() {
+	  $('.content_how_it_works').addClass('active');
+	  $('.content_technical_details').removeClass('active');
+	});
+	$('ul.links_separat li.pos_1').click(function() {
+	  $('.content_technical_details').addClass('active');
+	  $('.content_how_it_works').removeClass('active');
+	});
+
 });
 
 
