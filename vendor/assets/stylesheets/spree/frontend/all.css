@@ -247,17 +247,17 @@ nav#top-nav-bar ul li.pos_1 {
 ul.main_bar li:hover:before {
 	content: "";
 	position: absolute;
-	top: 103%;
+	top: 101%;
 	right: 0;
 	width: 100%;
-	height: 5px;
+	height: 4px;
 	background: #e2001a;
 }
 #footer form li input[type="submit"]:hover {
 	background-color: #00adee;
 }
 div.description_div {
-	height: 165px;
+	min-height: 175px;
 }
 /*----------------------[end Header]---------------------- *= require spree/frontend/spree_static_content
 */
@@ -270,6 +270,7 @@ div.description_div {
 	background: #fff;
 	margin-bottom: 60px;
 	position: relative;
+	min-height: 500px;
 }
 /*----------------------[end Wrapper]---------------------- *= require spree/frontend/spree_static_content
 */
@@ -837,3 +838,44 @@ div.about_text > h3 {
 /*----------------------[end About]----------------------*/
 /*=====================================================================================================================================*/
 
+/*----------------------[Search]----------------------*/
+ul#products li .product-image {
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	height: 160px;
+	width: 160px;
+	padding-top: 27px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #3D3D3F;
+}
+.search-results-title {
+	margin: 30px 0 50px;
+	font-size: 20px;
+	line-height: 23px;
+	border: none;
+	text-transform: none;
+}
+ul#products.product-listing {
+	float: right;
+}
+ul#products li a.info {
+	color: #595959;
+	font-size: 14px;
+	line-height: 16px;
+	border-bottom: 1px solid #e2001a;
+	font-weight: normal;
+}
+ul#products li .price {
+	color: #595959;
+}
+ul#products li .product-image:hover {
+	border-color: #e2001a;
+}
+ul#products li {
+	margin-left: 100px;
+}
+/*----------------------[end Search]----------------------*/
+/*=====================================================================================================================================*/
