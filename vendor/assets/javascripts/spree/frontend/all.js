@@ -39,7 +39,11 @@ $( document ).ready(function() {
 		$('#link-to-cart a .amount').remove();
 		var old_text_cart = $('a.cart-info.full').text();
 		var new_text_cart = old_text_cart.replace("Cart", "עגלת קניות");
-		$('a.cart-info.full').text("new_text_cart");
+		$('a.cart-info.full').text(new_text_cart);
+
+		var value = $('.search-results-title').text(); 
+		value = value.replace("Search results for", " : תוצאות החיפוש שלך ל");
+		$('.search-results-title').text(value);
 });
 
 
