@@ -35,7 +35,12 @@ $( document ).ready(function() {
 	  $('.content_how_it_works').removeClass('active');
 	});
 
-	//Header change text Cart
+
+});
+
+
+$(window).load(function() {
+			//Header change text Cart
 		$('#link-to-cart a .amount').remove();
 		var old_text_cart = $('a.cart-info.full').text();
 		var new_text_cart = old_text_cart.replace("Cart", "עגלת קניות");
@@ -44,11 +49,6 @@ $( document ).ready(function() {
 		var value = $('.search-results-title').text(); 
 		value = value.replace("Search results for", " : תוצאות החיפוש שלך ל");
 		$('.search-results-title').text(value);
-});
-
-
-$(window).load(function() {
-		
 });
 
 // calling slider js
