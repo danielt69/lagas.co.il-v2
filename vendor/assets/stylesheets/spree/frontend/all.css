@@ -219,6 +219,8 @@ ul.main_bar {
 ul.main_bar li {
 	width: auto;
 	height: 100%;
+	position: relative;
+	z-index: 1;
 }
 ul.main_bar li:first-child a {
 	padding-right: 0;
@@ -242,9 +244,14 @@ ul.main_bar li a h3 {
 nav#top-nav-bar ul li.pos_1 {
 	padding-right: 6px;
 }
-ul.main_bar li:hover {
-	border-bottom: 4px solid #e2001a;
-	padding-bottom: 1px;
+ul.main_bar li:hover:before {
+	content: "";
+	position: absolute;
+	top: 103%;
+	right: 0;
+	width: 100%;
+	height: 5px;
+	background: #e2001a;
 }
 #footer form li input[type="submit"]:hover {
 	background-color: #00adee;
