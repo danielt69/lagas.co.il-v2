@@ -336,10 +336,15 @@ footer#footer > div {
 	visibility: hidden;
 }
 #footer-left ul li {
+	min-width: 100px;
+}
+#footer-left ul li a {
 	color: #fff;
 	font-size: 16px;
 	line-height: 34px;
-	min-width: 100px;
+}
+#footer-left ul li a:hover {
+	color: #e2001a;
 }
 .footer_categories li {
 	width: 100%;
