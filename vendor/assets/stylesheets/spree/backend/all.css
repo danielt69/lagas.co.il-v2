@@ -53,3 +53,14 @@ table tbody tr:hover td {
 table tbody tr.even td {
 	background-color: #F3F3F3;
 }
+.select2-container .select2-choice {
+	background-color: #E1E2E4;
+}
+.select2-container:hover .select2-choice, 
+.select2-container.select2-container-active .select2-choice {
+	background-color: #2DB4A2 !important;
+	border-color: #2DB4A2 !important;
+}
+table tbody tr.state-complete td:first-child {
+	border-left-color: #2DB4A2;
+}
