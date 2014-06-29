@@ -80,7 +80,7 @@ $(document).ready(function() {
 
 // temp
 $(document).ready(function() {
-    $('div[data-hook="product_price"]').prepend('<div class="temp">להזמנות חייגו עכשיו: 052-457-2703 <br /> *בקרוב: הזמנות אונליין באתר!</div>');
+    $('div[data-hook="product_price"]').prepend('<div class="temp">להזמנות חייגו עכשיו: 052-457-2703 <br />נייל: otn.moas@gmail.com<br /> *בקרוב: הזמנות אונליין באתר!</div>');
 });
 
 
