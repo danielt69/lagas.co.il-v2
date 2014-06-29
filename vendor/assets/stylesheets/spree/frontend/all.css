@@ -678,8 +678,13 @@ div.stick_item li a {
 	line-height: 22px;
 	color: #595959;
 }
-div.classic_item {
+div.classic_item,
+div.stick_item {
 	display: none;
+}
+div.classic_item.active,
+div.stick_item.active {
+	display: block;
 }
 div.empty_stick_image .secend,
 div.empty_stick_image .first,
