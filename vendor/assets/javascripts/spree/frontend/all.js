@@ -40,6 +40,16 @@ $( document ).ready(function() {
 	if($('div.account-my-orders p').text() == "You have no orders yet"){
 	$('div.account-my-orders p').text("אין הזמנות עדיין");
 	}
+
+	if ($('#product-description .product-title').text().indexOf('GASLEVEL STICK') > -1) {
+	$('div.classic_item').removeClass('active');
+	$('div.stick_item').addClass('active');
+	}
+	if ($('#product-description .product-title').text().indexOf('GASLEVEL CLASSIC') > -1) {
+		$('div.stick_item').removeClass('active');
+		$('div.classic_item').addClass('active');
+	}
+
 });
 
 
