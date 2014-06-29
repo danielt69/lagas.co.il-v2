@@ -681,6 +681,27 @@ div.stick_item li a {
 div.classic_item {
 	display: none;
 }
+div.empty_stick_image .secend,
+div.empty_stick_image .first,
+div.filled_stick_image .secend,
+div.filled_stick_image .first {
+	display: block;
+	font-size: 14px;
+}
+div.filled_stick_image .secend {
+	color: #05D116;
+}
+div.empty_stick_image .secend {
+	color: #FD000A;
+}
+div.empty_stick_image {
+	float: right;
+	margin: 30px 20px 0;
+}
+div.filled_stick_image {
+	float: left;
+	margin-top: 30px;
+}
 /*----------------------[end Item]---------------------- */
 /*===================================================================================================================================== */
 /*----------------------[Products]-------------------------- */
