@@ -956,6 +956,15 @@ ul#products li {
 /*=====================================================================================================================================*/
 
 
+/*extra pages*/
+h2.heading {
+	color: #e2001a;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 20px 0;
+}
+/*end extra pages*/
 
 /*temp*/
 #product-description .five.columns {
