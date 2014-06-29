@@ -929,6 +929,9 @@ div.temp {
 	height: 0;
 	font-size: 12px;
 	width: 181px;
+	-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow:    2px 2px 10px rgba(0, 0, 0, 0.22);
+	box-shadow:         2px 2px 10px rgba(0, 0, 0, 0.22);
 }
 #product-description .five.columns:hover div.temp,
 #product-description .five.columns div.temp {
