@@ -66,6 +66,9 @@ $(document).ready(function() {
 });
 
 
+// temp
+
+$('div[data-hook="product_price"]').prepend('<div class="temp">להזמנות חייגו עכשיו: 052-457-2703 <br /> *בקרוב: הזמנות אונליין באתר!</div>');
 
 
 

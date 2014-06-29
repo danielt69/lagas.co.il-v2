@@ -215,21 +215,24 @@ ul.main_bar {
 	width: 100%;
 	margin: 0;
 	height: 63px;
+	text-align: center;
 }
 ul.main_bar li {
 	width: 33%;
 	height: 100%;
 	position: relative;
 	z-index: 1;
+	display: inline-block;
+	float: none;
 }
 ul.main_bar li:first-child a {
-	padding-right: 0;
+	padding: 0;
 	border-right: none;
 }
 ul.main_bar li a {
 	display: block;
 	width: auto;
-	padding: 0 50px;
+	padding: 0;
 	margin-top: 12px;
 	border-right: 1px solid #ccc;
 }
@@ -901,4 +904,43 @@ ul#products li {
 
 /*----------------------[end Orders]----------------------*/
 /*=====================================================================================================================================*/
+
+
+
+/*temp*/
+#product-description .five.columns {
+	position: relative;
+}
+#product-description .five.columns:hover div.temp {
+	opacity: 1;
+	bottom: 115%;
+}
+div.temp {
+	border: 1px solid #e2001a;
+	padding: 11px;
+	position: absolute;
+	bottom: -100%;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+}
+#product-description .five.columns:hover div.temp,
+#product-description .five.columns div.temp {
+	-webkit-transition: all .15s ease;
+	   -moz-transition: all .15s ease;
+	    -ms-transition: all .15s ease;
+	     -o-transition: all .15s ease;
+	        transition: all .15s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
 
