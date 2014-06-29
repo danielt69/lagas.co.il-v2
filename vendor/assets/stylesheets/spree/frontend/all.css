@@ -761,6 +761,10 @@ ul.items li h3 {
 	width: auto;
 	display: inline-block;
 	font-weight: normal;
+	padding: 0 50px;
+}
+li.main_item3 p b {
+	font-size: 31px;
 }
 ul.items li p {
 	font-size: 14px;
