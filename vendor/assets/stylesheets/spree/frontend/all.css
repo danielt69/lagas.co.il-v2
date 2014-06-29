@@ -914,16 +914,21 @@ ul#products li {
 #product-description .five.columns:hover div.temp {
 	opacity: 1;
 	bottom: 115%;
+	height: auto;
 }
 div.temp {
 	border: 1px solid #e2001a;
-	padding: 11px;
+	padding: 9px;
 	position: absolute;
-	bottom: -100%;
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	border-radius: 5px; 
-	color: #444;
+	bottom: 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #181717;
+	opacity: 0;
+	height: 0;
+	font-size: 12px;
+	width: 181px;
 }
 #product-description .five.columns:hover div.temp,
 #product-description .five.columns div.temp {
