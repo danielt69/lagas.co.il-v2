@@ -667,6 +667,20 @@ div.content_how_it_works.active {
 div#promotions {
 	display: none;
 }
+div.classic_item li,
+div.stick_item li {
+	float: none;
+	list-style: inherit;
+}
+div.classic_item li a,
+div.stick_item li a {
+	font-size: 16px;
+	line-height: 22px;
+	color: #595959;
+}
+div.classic_item {
+	display: none;
+}
 /*----------------------[end Item]---------------------- */
 /*===================================================================================================================================== */
 /*----------------------[Products]-------------------------- */
