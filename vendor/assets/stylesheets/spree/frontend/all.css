@@ -923,6 +923,7 @@ div.temp {
 	-webkit-border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	border-radius: 5px; 
+	color: #444;
 }
 #product-description .five.columns:hover div.temp,
 #product-description .five.columns div.temp {
