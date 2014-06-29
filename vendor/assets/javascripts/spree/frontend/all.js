@@ -42,12 +42,14 @@ $( document ).ready(function() {
 	}
 
 	if ($('#product-description .product-title').text().indexOf('GASLEVEL STICK') > -1) {
-	$('div.classic_item').removeClass('active');
-	$('div.stick_item').addClass('active');
+		$('div.classic_item').removeClass('active');
+		$('div.stick_item').addClass('active');
+		$('.left_video .classic_video').remove();
 	}
 	if ($('#product-description .product-title').text().indexOf('GASLEVEL CLASSIC') > -1) {
 		$('div.stick_item').removeClass('active');
 		$('div.classic_item').addClass('active');
+		$('.left_video .stick_video').remove();
 	}
 
 });
