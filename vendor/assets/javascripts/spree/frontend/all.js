@@ -61,6 +61,11 @@ $( document ).ready(function() {
 		$('div.flash.notice').text("המייל נשלח בהצלחה");
 	}
 
+	$('form#new_contact_us_contact').prepend('<div id="contact_us_title"><h3>צור קשר</h3></div>');
+	$('form#new_contact_us_contact label').eq(0).text("שם פרטי");
+	$('form#new_contact_us_contact label').eq(1).text("מייל");
+	$('form#new_contact_us_contact label').eq(2).text("הודעה");
+
 });
 
 
