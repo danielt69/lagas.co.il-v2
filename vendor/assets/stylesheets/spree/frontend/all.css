@@ -401,7 +401,8 @@ form#footer_new_contact_us_contact p {
 	width: 100%;
 	display: block;
 	float: none;
-	margin-bottom: 18px;
+	padding: 0;
+	position: relative;
 }
 form#footer_new_contact_us_contact p input {
 	width: 100%;
@@ -425,9 +426,25 @@ form#footer_new_contact_us_contact p textarea {
 }
 form#footer_new_contact_us_contact p input[type="submit"] {
 	color: #fff;
+	padding: 0 0 0 20px;
+	width: 140px;
+	margin: 0 auto 0 0;
 }
 form#footer_new_contact_us_contact p input[type="submit"]:hover {
 	background-color: #00adee;
+}
+form#footer_new_contact_us_contact p i.fa {
+	position: absolute;
+	left: 36px;
+	top: 0px;
+	font-size: 14px;
+	line-height: 27px;
+}
+/*end form style*/
+
+#header li.not,
+li.not {
+	display: none;
 }
 /*----------------------[end Footer]---------------------- */
 /*===================================================================================================================================== */
