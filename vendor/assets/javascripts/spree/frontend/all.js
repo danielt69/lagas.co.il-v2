@@ -38,7 +38,7 @@ $( document ).ready(function() {
 	$('dl#user-info dt').text("מייל שלי");
 	$('div.account-my-orders h3').text("ההזמנות שלי");
 	if($('div.account-my-orders p').text() == "You have no orders yet"){
-	$('div.account-my-orders p').text("אין הזמנות עדיין");
+		$('div.account-my-orders p').text("אין הזמנות עדיין");
 	}
 
 	if ($('#product-description .product-title').text().indexOf('GASLEVEL STICK') > -1) {
@@ -52,7 +52,13 @@ $( document ).ready(function() {
 		$('.left_video .stick_video').remove();
 	}
 	if ($('div.flash.success').text().indexOf('Logged in successfully') > -1) {
-		$('div.flash.success').text("התחברת בהצלחה")		
+		$('div.flash.success').text("התחברת בהצלחה");	
+	}
+	if ($('div.flash.notice').text().indexOf('Signed out successfully.') > -1) {
+		$('div.flash.notice').text("להתראות בפעם הבאה ");
+	}
+	if ($('div.flash.notice').text().indexOf('Contact email was successfully sent.') > -1) {
+		$('div.flash.notice').text("המייל נשלח בהצלחה");
 	}
 
 });
