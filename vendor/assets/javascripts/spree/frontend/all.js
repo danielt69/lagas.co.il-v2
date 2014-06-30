@@ -52,6 +52,8 @@ $( document ).ready(function() {
 		$('.left_video .stick_video').remove();
 	}
 
+	$('div.flash.notice').text("ברוך הבא ! פרטיך התקבלו בהצלחה");
+
 });
 
 
