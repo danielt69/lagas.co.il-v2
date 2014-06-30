@@ -68,6 +68,10 @@ div.flash.notice {
 	text-align: center;
 	font-size: 19px;
 }
+div.flash.success {
+	text-align: center;
+	font-size: 17px;
+}
 /*----------------------[Header]-------------------------- *= require spree/frontend/spree_static_content
 */
 aside#sidebar {
