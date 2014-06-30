@@ -3,23 +3,33 @@
   <div id="footer-right" class="columns omega eight" data-hook>
   	<div class="contact">
   		<h3>יש לך שאלה? <br />כתוב לנו ונשמח לעמוד לשירותך</h3>
-  		<form id="form_863468" class="appnitro" method="post" action="/formbuilder/view.php">
-		    <ul>
-		        <li id="li_3">
-		            <input id="element_3_1" name="element_3_1" class="element text" placeholder="שם:"maxlength="255" size="8" value="">
-		        </li>
-		        <li id="li_2">
-		            <input id="element_2" name="element_2" class="element text large" placeholder="מייל:"type="text" maxlength="255" value="">
-		        </li>
-		        <li id="li_1">
-		            <textarea id="element_1" name="element_1" class="element textarea small" placeholder="תוכן ההודעה:"></textarea>
-		        </li>
-
-		        <li class="buttons">
-		            <input id="saveForm" class="button_text" type="submit" name="submit" value="שלח פנייה">
-		        </li>
-		    </ul>
-		</form>
+  		<form accept-charset="UTF-8" action="/contacts" class="new_contact_us_contact" id="footer_new_contact_us_contact" method="post" novalidate="novalidate">
+          <div >
+              <input name="utf8" type="hidden" value="✓">
+              <input name="authenticity_token" type="hidden" value="jFC+5i8TaZdIlepZenmtWzfw5fCTOA+C9wDrRmz32CQ=">
+          </div>
+          <p>
+              <label for="contact_us_contact_name">שם:</label>
+              <span class="required">*</span>
+              <br>
+              <input class="required" id="footer_contact_us_contact_name" name="contact_us_contact[name]" type="text" placeholder="שם:">
+          </p>
+          <p>
+              <label for="contact_us_contact_email">מייל:</label>
+              <span class="required">*</span>
+              <br>
+              <input class="required email" id="footer_contact_us_contact_email" name="contact_us_contact[email]" type="email" placeholder="מייל:">
+          </p>
+          <p>
+              <label for="contact_us_contact_message">תוכן ההודעה</label>
+              <br>
+              <textarea class="required" id="footer_contact_us_contact_message" name="contact_us_contact[message]" placeholder="תוכן ההודעה:"></textarea>
+          </p>
+          <p class='btn'>
+              <input alt="Submit" id="footer_contact_us_contact_submit" name="commit" title="Submit" type="submit" value="שלח פנייה">
+              <i class="fa fa-angle-double-left"></i>
+          </p>
+      </form>
   	</div>
   </div>
 

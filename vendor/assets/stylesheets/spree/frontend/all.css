@@ -263,9 +263,6 @@ ul.main_bar li:hover:before {
 	height: 4px;
 	background: #e2001a;
 }
-#footer form li input[type="submit"]:hover {
-	background-color: #00adee;
-}
 div.description_div {
 	min-height: 175px;
 }
@@ -395,6 +392,10 @@ footer#footer div.logo_ref {
 	float: left;
 	margin: 5px;
 }
+
+/*#footer form li input[type="submit"]:hover {
+	background-color: #00adee;
+}
 #footer form {
 	position: relative;
 }
@@ -426,7 +427,7 @@ footer#footer div.logo_ref {
 }
 #footer form li input[type="submit"] {
 	color: #fff;
-}
+}*/
 /*----------------------[end Footer]---------------------- */
 /*===================================================================================================================================== */
 /*----------------------[Item]-------------------------- */
