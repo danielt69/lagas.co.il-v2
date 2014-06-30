@@ -393,19 +393,17 @@ footer#footer div.logo_ref {
 	margin: 5px;
 }
 
-/*#footer form li input[type="submit"]:hover {
-	background-color: #00adee;
-}
-#footer form {
+/*form style*/
+form#footer_new_contact_us_contact {
 	position: relative;
 }
-#footer form li {
+form#footer_new_contact_us_contact p {
 	width: 100%;
 	display: block;
 	float: none;
 	margin-bottom: 18px;
 }
-#footer form li input {
+form#footer_new_contact_us_contact p input {
 	width: 100%;
 	display: block;
 	border: none;
@@ -417,7 +415,7 @@ footer#footer div.logo_ref {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-#footer form li textarea {
+form#footer_new_contact_us_contact p textarea {
 	width: 100%;
 	min-height: 80px;
 	line-height: 27px;
@@ -425,9 +423,12 @@ footer#footer div.logo_ref {
 	color: #636363;
 	padding: 0 5px;
 }
-#footer form li input[type="submit"] {
+form#footer_new_contact_us_contact p input[type="submit"] {
 	color: #fff;
-}*/
+}
+form#footer_new_contact_us_contact p input[type="submit"]:hover {
+	background-color: #00adee;
+}
 /*----------------------[end Footer]---------------------- */
 /*===================================================================================================================================== */
 /*----------------------[Item]-------------------------- */
