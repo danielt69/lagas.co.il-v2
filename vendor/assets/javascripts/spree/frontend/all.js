@@ -66,6 +66,13 @@ $( document ).ready(function() {
 	$('form#new_contact_us_contact label').eq(1).text("מייל");
 	$('form#new_contact_us_contact label').eq(2).text("הודעה");
 
+	$('div#existing-customer h6').text('התחברות ללקוחות קיימים');
+	$('div#password-credentials label').eq(0).text('מייל');
+	$('div#password-credentials label').eq(1).text('סיסמא');
+
+	$('[data-hook="login"] a').eq(0).text("צור משתמש חדש");
+	$('[data-hook="login"] a').eq(1).text("שחכתי סיסמא");
+
 });
 
 
