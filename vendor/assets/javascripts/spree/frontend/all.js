@@ -21,7 +21,7 @@ $( document ).ready(function() {
 
 	//Header change my account to he
 	$('#nav-bar .pos_0 a ').text('התחבר   ');
-	$('#nav-bar .pos_1 a ').text('הרשם');
+	$('#nav-bar .pos_1 a ').text('התנתק');
 
 	$('input#keywords').attr("placeholder", "");
 	$('#add-to-cart-button').text('הזמן עכשיו');
