@@ -931,6 +931,9 @@ ul.newsticker li {
 div.bottom_wrapper ul.newsticker p {
 	margin: 0;
 }
+.newsticker h4 {
+	color: #E4501A;
+}
 /*end newsticker*/
 /*----------------------[end Homepage]---------------------- *= require spree/frontend/spree_static_content
 */
