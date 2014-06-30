@@ -872,6 +872,9 @@ div.bottom_wrapper .left span {
 	color: #000;
 	text-decoration: underline;
 }
+ul.items {
+	width: 1000px;
+}
 /*----------------------[end Homepage]---------------------- *= require spree/frontend/spree_static_content
 */
 /*===================================================================================================================================== *= require spree/frontend/spree_static_content
