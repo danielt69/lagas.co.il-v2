@@ -100,14 +100,25 @@ $(document).ready(function() {
 });
 
 
-// temp
+
 $(document).ready(function() {
+	// temp
     $('div[data-hook="product_price"]').prepend('<div class="temp">להזמנות חייגו עכשיו: 052-457-2703 <br />מייל: otn.moas@gmail.com<br /> *בקרוב: הזמנות אונליין באתר!</div>');
     $("input#contact_us_contact_submit").val('שלח פנייה');
+    // end temp
+    $('.newsticker').newsTicker({
+	    row_height: $(this).outerHeight(),
+	    max_rows: 1,
+	    speed: 600,
+	    direction: 'up',
+	    duration: 5000,
+	    autostart: 1,
+	    pauseOnHover: 0,
+	    nextButton: $("fa fa-chevron-down"),
+	    prevButton: $("fa fa-chevron-up")
+	});
 });
 
-// newsTicker
-$('.newsticker').newsTicker();
 
 
 //= require spree/frontend/spree_contact_us
