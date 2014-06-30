@@ -11,7 +11,7 @@
  *= require spree/frontend/spree_static_content
 */
 
-@import url('https://fonts.googleapis.com/earlyaccess/opensanshebrew.css');
+@import url('/alef/stylesheet.css');
 
 
 a {
@@ -24,7 +24,7 @@ li {
 body {
 	background: url(/images/body_bg.jpg);
 	direction: rtl;
-	font-family: 'Open Sans Hebrew' !important;
+	font-family: 'Alef' !important;
 }
 body:before {
 	content: "";
@@ -62,7 +62,7 @@ select,
 button,
 meter,
 progress {
-	font-family: 'Open Sans Hebrew' !important;
+	font-family: 'Alef' !important;
 }
 
 /*----------------------[Header]-------------------------- *= require spree/frontend/spree_static_content
