@@ -927,6 +927,9 @@ ul.newsticker li {
 	left: 0;
 	display: none;
 }
+div.bottom_wrapper ul.newsticker p {
+	margin: 0;
+}
 /*end newsticker*/
 /*----------------------[end Homepage]---------------------- *= require spree/frontend/spree_static_content
 */
