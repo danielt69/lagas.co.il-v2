@@ -72,6 +72,7 @@ $( document ).ready(function() {
 
 	$('[data-hook="login"] a').eq(0).text("צור משתמש חדש");
 	$('[data-hook="login"] a').eq(1).text("שחכתי סיסמא");
+	$('nav #main-nav-bar li#link-to-cart a').text('עגלת קניות');
 
 });
 
