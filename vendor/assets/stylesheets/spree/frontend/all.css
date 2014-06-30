@@ -72,8 +72,12 @@ div.flash.success {
 	text-align: center;
 	font-size: 19px;
 }
-/*----------------------[Header]-------------------------- *= require spree/frontend/spree_static_content
-*/
+nav#footer-pages {
+	display: none;
+}
+li.current a {
+	display: none;
+}
 aside#sidebar {
 	display: none;
 }
