@@ -102,7 +102,6 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-	$("nav #main-nav-bar li#link-to-cart a").html($("nav #main-nav-bar li#link-to-cart a").html().replace('Cart','עגלת קניות').replace('Empty','0'));
 	// temp
     $('div[data-hook="product_price"]').prepend('<div class="temp">להזמנות חייגו עכשיו: 052-457-2703 <br />מייל: otn.moas@gmail.com<br /> *בקרוב: הזמנות אונליין באתר!</div>');
     $("input#contact_us_contact_submit").val('שלח פנייה');
