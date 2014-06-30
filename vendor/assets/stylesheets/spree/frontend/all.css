@@ -332,7 +332,7 @@ footer#footer > div {
 	display: inline-block;
 }
 #footer-left ul {
-	padding-top: 12px;
+	padding: 0;
 }
 #footer-left ul:after {
 	content: "";
