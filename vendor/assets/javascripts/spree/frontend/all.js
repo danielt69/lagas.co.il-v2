@@ -51,8 +51,9 @@ $( document ).ready(function() {
 		$('div.classic_item').addClass('active');
 		$('.left_video .stick_video').remove();
 	}
-
-	$('div.flash.notice').text("ברוך הבא ! פרטיך התקבלו בהצלחה");
+	if ($('div.flash.success').text().indexOf('Logged in successfully') > -1) {
+		$('div.flash.success').text("התחברת בהצלחה")		
+	}
 
 });
 
