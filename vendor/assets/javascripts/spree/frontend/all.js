@@ -72,7 +72,6 @@ $( document ).ready(function() {
 
 	$('[data-hook="login"] a').eq(0).text("צור משתמש חדש");
 	$('[data-hook="login"] a').eq(1).text("שחכתי סיסמא");
-	$('nav #main-nav-bar li#link-to-cart a').text('עגלת קניות');
 
 });
 
@@ -80,13 +79,15 @@ $( document ).ready(function() {
 $(window).load(function() {
 			//Header change text Cart
 		$('nav #main-nav-bar li#link-to-cart a .amount').remove();
-		var old_text_cart = $('a.cart-info.full').text();
-		var new_text_cart = old_text_cart.replace("Cart:", "עגלת קניות");
-		$('a.cart-info.full').text(new_text_cart);
+		// var old_text_cart = $('a.cart-info.full').text();
+		// var new_text_cart = old_text_cart.replace("Cart:", "עגלת קניות");
+		// $('a.cart-info.full').text(new_text_cart);
 
 		var value = $('.search-results-title').text(); 
 		value = value.replace("Search results for", "תוצאות החיפוש שלך ל : ");
 		$('.search-results-title').text(value);
+
+	    $('nav #main-nav-bar li#link-to-cart a').text('עגלת קניות');
 });
 
 // calling slider js
