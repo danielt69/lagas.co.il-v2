@@ -107,15 +107,15 @@ $(document).ready(function() {
     $("input#contact_us_contact_submit").val('שלח פנייה');
     // end temp
     $('.newsticker').newsTicker({
-	    row_height: $(this).outerHeight(),
+	    row_height: 207,
 	    max_rows: 1,
-	    speed: 600,
+	    speed: 700,
 	    direction: 'up',
-	    duration: 5000,
+	    duration: 9000,
 	    autostart: 1,
-	    pauseOnHover: 0,
-	    nextButton: $("fa fa-chevron-down"),
-	    prevButton: $("fa fa-chevron-up")
+	    pauseOnHover: 1,
+	    nextButton: $(".newsticker .fa .fa-chevron-down"),
+	    prevButton: $(".newsticker .fa .fa-chevron-up")
 	});
 });
 
