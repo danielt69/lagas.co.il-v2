@@ -313,16 +313,16 @@ footer#footer > div {
 	height: 100%;
 }
 .footer_nav {
-	width: 215px;
-	padding: 0 50px 0 25px;
+	width: 240px;
+	padding: 0 30px 0 10px;
 	margin-bottom: 30px;
 	border-left: 1px solid #646464;
 	height: 154px;
 	display: inline-block;
 }
 .footer_categories {
-	width: 307px;
-	padding: 0 45px 0 0;
+	width: 330px;
+	padding: 0 30px 0 0;
 	margin-bottom: 30px;
 	height: 154px;
 	padding-left: 0;
@@ -352,13 +352,13 @@ footer#footer > div {
 #footer-left ul li a:hover {
 	color: #e2001a;
 }
-.footer_categories li {
+#footer-left .footer_categories ul li {
 	width: 100%;
 }
 .contact_info {
 	width: auto;
 	padding-top: 20px;
-	margin: 0 47px 0 0;
+	margin: 0 30px 0 0;
 	border-top: 1px solid #646464;
 }
 .contact_info p {
