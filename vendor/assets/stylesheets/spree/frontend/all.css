@@ -70,7 +70,7 @@ div.flash.notice {
 }
 div.flash.success {
 	text-align: center;
-	font-size: 17px;
+	font-size: 19px;
 }
 /*----------------------[Header]-------------------------- *= require spree/frontend/spree_static_content
 */
