@@ -50,3 +50,9 @@ gem 'spree_gateway', :path => 'vendor/gems/spree_gateway'
 gem 'spree_auth_devise', :path => 'vendor/gems/spree_auth_devise'
 gem 'spree_static_content', github: 'spree/spree_static_content', branch: '2-2-stable'
 gem 'spree_contact_us', :git => 'https://github.com/jdutil/spree_contact_us', :branch => "2-2-stable"
+
+
+
+
+
+
