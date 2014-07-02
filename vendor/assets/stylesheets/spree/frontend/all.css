@@ -1131,6 +1131,9 @@ input.button.primary {
 
 
 /*----------------------[Checkout]---------------------- */
+div#checkout {
+	margin-top: 50px;
+}
 [data-hook="cart_container"] {
 	margin-top: 40px;
 }
@@ -1147,7 +1150,7 @@ span.form_heb {
 	font-size: 15px;
 }
 .form-buttons input.continue.button.primary {
-	font-size: 22px;
+	font-size: 19px;
 	font-weight: normal;
 }
 fieldset#shipping_method legend {
