@@ -1,11 +1,11 @@
 <% address_id = address_type.chars.first %>
 <div class="inner" data-hook=<%="#{address_type}_inner" %>>
   <p class="field" id=<%="#{address_id}firstname" %>>
-    <span class="required">שם פרטי*</span><br />
+    <span class="form_heb">שם פרטי</span><span class="required">*</span><br />
     <%= form.text_field :firstname, :class => 'required' %>
   </p>
   <p class="field" id=<%="#{address_id}lastname" %>>
-    <%= form.label :lastname, Spree.t(:last_name) %><span class="required">*</span><br />
+     <span class="form_heb">שם משפחה</span><span class="required">*</span><br />
     <%= form.text_field :lastname, :class => 'required' %>
   </p>
   <% if Spree::Config[:company] %>
@@ -15,19 +15,19 @@
     </p>
   <% end %>
   <p class="field" id=<%="#{address_id}address1" %>>
-    <%= form.label :address1, Spree.t(:street_address) %><span class="required">*</span><br />
+     <span class="form_heb">רחוב</span><span class="required">*</span><br />
     <%= form.text_field :address1, :class => 'required' %>
   </p>
   <p class="field" id=<%="#{address_id}address2" %>>
-    <%= form.label :address2, Spree.t(:street_address_2) %><br />
+    <span class="form_heb">רחוב 2</span><br />
     <%= form.text_field :address2 %>
   </p>
   <p class="field" id=<%="#{address_id}city" %>>
-    <%= form.label :city, Spree.t(:city) %><span class="required">*</span><br />
+    <span class="form_heb">עיר</span><span class="required">*</span><br />
     <%= form.text_field :city, :class => 'required' %>
   </p>
   <p class="field" id=<%="#{address_id}country" %>>
-    <%= form.label :country_id, Spree.t(:country) %><span class="required">*</span><br />
+    <span class="form_heb">מדינה</span><span class="required">*</span><br />
     <span id=<%="#{address_id}country-selection" %>>
       <%= form.collection_select :country_id, available_countries, :id, :name, {}, {:class => 'required'} %>
     </span>
@@ -59,11 +59,11 @@
   <% end %>
 
   <p class="field" id=<%="#{address_id}zipcode" %>>
-    <%= form.label :zipcode, Spree.t(:zip) %><% if address.require_zipcode? %><span class="required">*</span><br /><% end %>
+  <span class="form_heb">מיקוד</span><% if address.require_zipcode? %><span class="required">*</span><br /><% end %>
     <%= form.text_field :zipcode, :class => "#{'required' if address.require_zipcode?}" %>
   </p>
   <p class="field" id=<%="#{address_id}phone" %>>
-    <%= form.label :phone, Spree.t(:phone) %><% if address.require_phone? %><span class="required">*</span><br /><% end %>
+    <span class="form_heb">טלפון</span><% if address.require_phone? %><span class="required">*</span><br /><% end %>
     <%= form.phone_field :phone, :class => "#{'required' if address.require_phone?}" %>
   </p>
   <% if Spree::Config[:alternative_shipping_phone] %>
