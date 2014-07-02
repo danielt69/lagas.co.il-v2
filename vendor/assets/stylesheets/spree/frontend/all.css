@@ -145,9 +145,10 @@ ul#nav-bar {
 	height: 100%;
 }
 nav#top-nav-bar ul li {
-	padding: 0 0 0 0;
-}
-nav#top-nav-bar ul li a {
+	padding: 0;
+	position: relative;
+	left: 26px;
+}nav#top-nav-bar ul li a {
 	font-weight: normal;
 	font-size: 14px;
 	text-transform: none;
@@ -208,7 +209,7 @@ ul.header_top_bar li {
 }
 ul.header_top_bar {
 	position: absolute;
-	width: 330px;
+	width: 304px;
 	top: 13px;
 }
 ul#main-nav-bar {
