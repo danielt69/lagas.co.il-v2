@@ -149,8 +149,9 @@ ul#nav-bar {
 nav#top-nav-bar ul li {
 	padding: 0;
 	position: relative;
-	left: 26px;
-}nav#top-nav-bar ul li a {
+	left: 19px;
+}
+nav#top-nav-bar ul li a {
 	font-weight: normal;
 	font-size: 14px;
 	text-transform: none;
@@ -211,7 +212,7 @@ ul.header_top_bar li {
 }
 ul.header_top_bar {
 	position: absolute;
-	width: 304px;
+	width: 312px;
 	top: 13px;
 }
 ul#main-nav-bar {
@@ -788,6 +789,7 @@ div.optimal_image {
 	margin: 0 auto;
 	float: none;
 	display: block;
+	background: url(/images/pattens.jpg);
 }
 div.homepage {
 	width: 960px;
