@@ -1143,6 +1143,29 @@ table#cart-detail tbody#line_items tr td[data-hook="cart_item_price"] {
 .cart-subtotal, .cart-total {
 	background: #504F52;
 }
+span.form_heb {
+	font-size: 15px;
+}
+.form-buttons input.continue.button.primary {
+	font-size: 22px;
+	font-weight: normal;
+}
+fieldset#shipping_method legend {
+	font-size: 31px;
+	font-weight: normal;
+	color: #595959;
+}
+#shipping_method .stock-location {
+	background-color: #777C7E;
+}
+.progress-steps li.current-first,
+.progress-steps li.current {
+	background-color: #de232d;
+}
+.progress-steps li.completed-first:hover, 
+.progress-steps li.completed:hover {
+	background-color: #de232d;
+}
 /*----------------------[end Checkout]---------------------- */
 /*=====================================================================================================================================*/
 

@@ -78,6 +78,14 @@ $( document ).ready(function() {
 	$('#clear_cart_link input').val("רוקן עגלה");
 	$('p#clear_cart_link a').text("המשך קנייה");
 	$('button#update-button').text("רענן");
+	$('.form-buttons input.continue.button.primary').val('המשך קנייה');
+	$('fieldset#shipping_method legend').text("משלוח");
+
+	jQuery("form#checkout_form_payment div.form-buttons input.continue.button.primary").click(function(){
+   		jQuery("#payment_method_7 img").trigger("click");
+   		return false;
+	});
+
 });
 
 
