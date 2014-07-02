@@ -761,7 +761,7 @@ div.optimal_image {
 }
 /* button OFF  *= require spree/frontend/spree_paypal_express
 */
-#product-description .add-to-cart:after {
+/*#product-description .add-to-cart:after {
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -769,7 +769,7 @@ div.optimal_image {
 	background: none;
 	right: 0;
 	content: "";
-}
+}*/
 /*----------------------[end Item]----------------------  *= require spree/frontend/spree_paypal_express
 */
 /*=====================================================================================================================================  *= require spree/frontend/spree_paypal_express
@@ -812,7 +812,7 @@ ul li.main_item1 {
 	background: url(/images/image_item1.png) no-repeat 0px 0px;
 }
 ul li.main_item2 {
-	background: url(/images/image_item2.png) no-repeat 45px 30px;
+	background: url(/images/image_item2.png) no-repeat 45px 30px #fff;
 	margin: 0 50px;
 }
 ul li.main_item3 {
@@ -1127,6 +1127,27 @@ input.button.primary {
 */
 /*===================================================================================================================================== *= require spree/frontend/spree_paypal_express
 */
+
+
+
+/*----------------------[Checkout]---------------------- */
+[data-hook="cart_container"] {
+	margin-top: 40px;
+}
+td.cart-item-description h4 a {
+	color: #DF242E;
+}
+table#cart-detail tbody#line_items tr td[data-hook="cart_item_price"] {
+	color: #595959;
+}
+.cart-subtotal, .cart-total {
+	background: #504F52;
+}
+/*----------------------[end Checkout]---------------------- */
+/*=====================================================================================================================================*/
+
+
+
 
 /*extra pages *= require spree/frontend/spree_paypal_express
 */
