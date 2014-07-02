@@ -100,16 +100,17 @@
 
 #slider-control-nav {
     position: absolute;
-    bottom: -29px;
+    bottom: -25px;
     text-align: center;
     -webkit-transition: opacity 0.2s linear;
     -moz-transition: opacity 0.2s linear;
     -ms-transition: opacity 0.2s linear;
     -o-transition: opacity 0.2s linear;
     transition: opacity 0.2s linear;
-    opacity: 0.2;
-    right: 15px;
+    opacity: 1;
+    right: 9px;
     width: auto;
+    z-index: 1;
 }
 .slider-wrapper:hover #slider-control-nav { opacity: 1; }
 #slider-control-nav a {
