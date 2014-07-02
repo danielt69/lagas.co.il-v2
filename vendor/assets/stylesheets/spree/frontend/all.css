@@ -285,10 +285,10 @@ div.description_div {
  *= require spree/frontend/spree_paypal_express
 */
 #wrapper {
-	background: #fff;
 	margin-bottom: 60px;
 	position: relative;
 	min-height: 500px;
+	background: url(/images/pattens.jpg) #fff;
 }
 /*----------------------[end Wrapper]---------------------- *= require spree/frontend/spree_static_content
  *= require spree/frontend/spree_paypal_express
@@ -789,7 +789,6 @@ div.optimal_image {
 	margin: 0 auto;
 	float: none;
 	display: block;
-	background: url(/images/pattens.jpg);
 }
 div.homepage {
 	width: 960px;
