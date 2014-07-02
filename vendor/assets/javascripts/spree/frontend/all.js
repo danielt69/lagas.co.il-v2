@@ -122,3 +122,4 @@ $(document).ready(function() {
 
 
 //= require spree/frontend/spree_contact_us
+//= require spree/frontend/spree_paypal_express

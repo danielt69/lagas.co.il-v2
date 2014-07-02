@@ -46,13 +46,13 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'spree', '2.2.2'
-gem 'spree_gateway', :path => 'vendor/gems/spree_gateway'
-gem 'spree_auth_devise', :path => 'vendor/gems/spree_auth_devise'
+#gem 'spree_gateway', :path => 'vendor/gems/spree_gateway'
+#gem 'spree_auth_devise', :path => 'vendor/gems/spree_auth_devise'
+gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
+gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
+
 gem 'spree_static_content', github: 'spree/spree_static_content', branch: '2-2-stable'
 gem 'spree_contact_us', :git => 'https://github.com/jdutil/spree_contact_us', :branch => "2-2-stable"
-
-
-
-
-
+gem 'spree_paypal_express', :github => "radar/better_spree_paypal_express", :branch => "2-2-stable"
+gem "spree_comments", github: 'spree/spree_comments', :branch => '2-2-stable'
 

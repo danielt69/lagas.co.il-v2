@@ -14,3 +14,4 @@
 $( document ).ready(function() {
 		
 });
+//= require spree/backend/spree_paypal_express

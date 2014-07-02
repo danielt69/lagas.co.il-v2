@@ -1,0 +1,10 @@
+# pack-refs with: peeled 
+e8e90625ebec12ce276f3f86c46184888522bde0 refs/heads/0-11-x
+06ca80177c8a5e0947d7fbc242dc111e6b458a1b refs/heads/0-30-x
+41041598312708611d120d30f2c89141c96022dd refs/heads/0-60-x
+3e23333a88aeea411f1cce5b216a2d4c67b50c95 refs/heads/1-2-stable
+3b57a1c904ff414ff36c1fe6887c1efcb57366af refs/heads/2-0-stable
+a41fdf49ce5d6b3addd8d7a93528fb7f7022d154 refs/heads/2-1-stable
+5a64cdefdb04f04c57babce31c720be176a48ac5 refs/heads/2-2-stable
+adc55f034a0c4d93dc4db25037a709b6d253f12b refs/heads/master
+d4f832ad94e9694798c6f21c95acaf9d0f092761 refs/heads/wywillian

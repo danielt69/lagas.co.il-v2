@@ -9,6 +9,7 @@
  *= require_self
  *= require_tree .
  *= require spree/frontend/spree_static_content
+ *= require spree/frontend/spree_paypal_express
 */
 
 @import url('/alef/stylesheet.css');
@@ -81,7 +82,8 @@ li.current a {
 aside#sidebar {
 	display: none;
 }
-/*----------------------[Header]--------------------------*/
+/*----------------------[Header]-------------------------- *= require spree/frontend/spree_paypal_express
+*/
 #header {
 	width: 960px;
 	margin: 0 auto;
@@ -271,11 +273,14 @@ div.description_div {
 	min-height: 175px;
 }
 /*----------------------[end Header]---------------------- *= require spree/frontend/spree_static_content
+ *= require spree/frontend/spree_paypal_express
 */
 
 /*===================================================================================================================================== *= require spree/frontend/spree_static_content
+ *= require spree/frontend/spree_paypal_express
 */
 /*----------------------[Wrapper]-------------------------- *= require spree/frontend/spree_static_content
+ *= require spree/frontend/spree_paypal_express
 */
 #wrapper {
 	background: #fff;
@@ -284,10 +289,13 @@ div.description_div {
 	min-height: 500px;
 }
 /*----------------------[end Wrapper]---------------------- *= require spree/frontend/spree_static_content
+ *= require spree/frontend/spree_paypal_express
 */
 /*===================================================================================================================================== *= require spree/frontend/spree_static_content
+ *= require spree/frontend/spree_paypal_express
 */
 /*----------------------[Footer]-------------------------- *= require spree/frontend/spree_static_content
+ *= require spree/frontend/spree_paypal_express
 */
 footer#footer {
 	padding: 0;
@@ -397,7 +405,8 @@ footer#footer div.logo_ref {
 	margin: 5px;
 }
 
-/*form style*/
+/*form style *= require spree/frontend/spree_paypal_express
+*/
 form#footer_new_contact_us_contact {
 	position: relative;
 }
@@ -445,15 +454,19 @@ form#footer_new_contact_us_contact p i.fa {
 	font-size: 14px;
 	line-height: 27px;
 }
-/*end form style*/
+/*end form style *= require spree/frontend/spree_paypal_express
+*/
 
 #header li.not,
 li.not {
 	display: none;
 }
-/*----------------------[end Footer]---------------------- */
-/*===================================================================================================================================== */
-/*----------------------[Item]-------------------------- */
+/*----------------------[end Footer]----------------------  *= require spree/frontend/spree_paypal_express
+*/
+/*=====================================================================================================================================  *= require spree/frontend/spree_paypal_express
+*/
+/*----------------------[Item]--------------------------  *= require spree/frontend/spree_paypal_express
+*/
 #product-description .product-title {
 	display: block;
 	color: #e2001a;
@@ -745,7 +758,8 @@ div.filled_stick_image {
 div.optimal_image {
 	float: right;
 }
-/* button OFF */
+/* button OFF  *= require spree/frontend/spree_paypal_express
+*/
 #product-description .add-to-cart:after {
 	position: absolute;
 	top: 0;
@@ -755,14 +769,20 @@ div.optimal_image {
 	right: 0;
 	content: "";
 }
-/*----------------------[end Item]---------------------- */
-/*===================================================================================================================================== */
-/*----------------------[Products]-------------------------- */
+/*----------------------[end Item]----------------------  *= require spree/frontend/spree_paypal_express
+*/
+/*=====================================================================================================================================  *= require spree/frontend/spree_paypal_express
+*/
+/*----------------------[Products]--------------------------  *= require spree/frontend/spree_paypal_express
+*/
 
-/*----------------------[end Products]----------------------*/
-/*===================================================================================================================================== */
+/*----------------------[end Products]---------------------- *= require spree/frontend/spree_paypal_express
+*/
+/*=====================================================================================================================================  *= require spree/frontend/spree_paypal_express
+*/
 
-/*----------------------[Homepage]-------------------------- */
+/*----------------------[Homepage]--------------------------  *= require spree/frontend/spree_paypal_express
+*/
 #wrapper div#content {
 	width: 960px;
 	margin: 0 auto;
@@ -911,7 +931,8 @@ ul.items {
 	width: 1000px;
 }
 
-/*newsticker*/
+/*newsticker *= require spree/frontend/spree_paypal_express
+*/
 .newsticker {
 	position: relative;
 }
@@ -934,16 +955,22 @@ div.bottom_wrapper ul.newsticker p {
 .newsticker h4 {
 	color: #e2001a;
 }
-/*end newsticker*/
+/*end newsticker *= require spree/frontend/spree_paypal_express
+*/
 /*----------------------[end Homepage]---------------------- *= require spree/frontend/spree_static_content
+ *= require spree/frontend/spree_paypal_express
 */
 /*===================================================================================================================================== *= require spree/frontend/spree_static_content
+ *= require spree/frontend/spree_paypal_express
 */
-/*----------------------[end Homepage]----------------------*/
-/*=====================================================================================================================================*/
+/*----------------------[end Homepage]---------------------- *= require spree/frontend/spree_paypal_express
+*/
+/*===================================================================================================================================== *= require spree/frontend/spree_paypal_express
+*/
 
 
-/*----------------------[About]--------------------------*/
+/*----------------------[About]-------------------------- *= require spree/frontend/spree_paypal_express
+*/
 div.about_text p {
 	font-size: 17px;
 	line-height: 31px;
@@ -966,10 +993,13 @@ div.about_text > h3 {
 	width:960px;
 	margin-bottom: 30px;
 }
-/*----------------------[end About]----------------------*/
-/*=====================================================================================================================================*/
+/*----------------------[end About]---------------------- *= require spree/frontend/spree_paypal_express
+*/
+/*===================================================================================================================================== *= require spree/frontend/spree_paypal_express
+*/
 
-/*----------------------[Search]----------------------*/
+/*----------------------[Search]---------------------- *= require spree/frontend/spree_paypal_express
+*/
 ul#products li .product-image {
 	border-radius: 200px 200px 200px 200px;
 	-moz-border-radius: 200px 200px 200px 200px;
@@ -1008,11 +1038,14 @@ ul#products li .product-image:hover {
 ul#products li {
 	margin-left: 100px;
 }
-/*----------------------[end Search]----------------------*/
-/*=====================================================================================================================================*/
+/*----------------------[end Search]---------------------- *= require spree/frontend/spree_paypal_express
+*/
+/*===================================================================================================================================== *= require spree/frontend/spree_paypal_express
+*/
 
 
-/*----------------------[Orders]----------------------*/
+/*----------------------[Orders]---------------------- *= require spree/frontend/spree_paypal_express
+*/
 #user-info dd {
 	margin-left: 0px;
 	direction: ltr;
@@ -1025,12 +1058,15 @@ ul#products li {
 	padding: 10px;
 }
 
-/*----------------------[end Orders]----------------------*/
-/*=====================================================================================================================================*/
+/*----------------------[end Orders]---------------------- *= require spree/frontend/spree_paypal_express
+*/
+/*===================================================================================================================================== *= require spree/frontend/spree_paypal_express
+*/
 
 
 
-/*----------------------[Contact-us]----------------------*/
+/*----------------------[Contact-us]---------------------- *= require spree/frontend/spree_paypal_express
+*/
 form#new_contact_us_contact {
 	width: 500px;
 	margin: 40px auto 0;
@@ -1057,11 +1093,14 @@ input#contact_us_contact_submit {
 div#contact_us_title h3 {
 	font-size: 27px;
 }
-/*----------------------[end Contact-us]----------------------*/
-/*=====================================================================================================================================*/
+/*----------------------[end Contact-us]---------------------- *= require spree/frontend/spree_paypal_express
+*/
+/*===================================================================================================================================== *= require spree/frontend/spree_paypal_express
+*/
 
 
-/*----------------------[Login]----------------------*/
+/*----------------------[Login]---------------------- *= require spree/frontend/spree_paypal_express
+*/
 div#existing-customer h6 {
 	font-size: 19px;
 }
@@ -1083,10 +1122,13 @@ input.button.primary {
 	width: 300px;
 	height: 50px;
 }
-/*----------------------[end Login]----------------------*/
-/*=====================================================================================================================================*/
+/*----------------------[end Login]---------------------- *= require spree/frontend/spree_paypal_express
+*/
+/*===================================================================================================================================== *= require spree/frontend/spree_paypal_express
+*/
 
-/*extra pages*/
+/*extra pages *= require spree/frontend/spree_paypal_express
+*/
 h2.heading {
 	color: #e2001a;
 	font-size: 30px;
@@ -1094,9 +1136,11 @@ h2.heading {
 	text-align: center;
 	padding: 20px 0;
 }
-/*end extra pages*/
+/*end extra pages *= require spree/frontend/spree_paypal_express
+*/
 
-/*temp*/
+/*temp *= require spree/frontend/spree_paypal_express
+*/
 #product-description .five.columns {
 	position: relative;
 }
