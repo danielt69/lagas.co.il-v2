@@ -424,7 +424,6 @@ form#footer_new_contact_us_contact p input {
 form#footer_new_contact_us_contact p textarea {
 	width: 100%;
 	min-height: 80px;
-	line-height: 27px;
 	font-size: 13px;
 	color: #636363;
 	padding: 0 5px;
