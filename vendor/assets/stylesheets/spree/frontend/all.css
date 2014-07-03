@@ -820,14 +820,18 @@ ul li.main_item3 {
 }
 ul.items li h3 {
 	font-size: 19px;
-	line-height: 28px;
+	line-height: 41px;
 	color: #ed1c24;
-	margin-top: 79px;
+	margin-top: 43px;
 	border-bottom: 1px solid rgba(255,255,255,0.36);
 	width: auto;
 	display: inline-block;
 	font-weight: normal;
 	padding: 0 50px;
+}
+li.main_item1 a h3 {
+	line-height: 28px;
+	margin-top: 79px;
 }
 li.main_item3 p b {
 	font-size: 31px;
