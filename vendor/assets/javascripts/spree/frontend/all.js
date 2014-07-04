@@ -86,15 +86,19 @@ $( document ).ready(function() {
    		return false;
 	});
 
+	$('nav #main-nav-bar li#link-to-cart a .amount').remove();
+	$('a.cart-info.full').text('עגלת קניות');
+	$('a.cart-info.empty').text('עגלת קניות');
+	
 });
 
 
 $(window).load(function() {
 		//Header change text Cart
-		$('nav #main-nav-bar li#link-to-cart a .amount').remove();
-		var old_text_cart = $('a.cart-info.full').text();
-		var new_text_cart = old_text_cart.replace("Cart:", "עגלת קניות");
-		$('a.cart-info.full').text(new_text_cart);
+		// $('nav #main-nav-bar li#link-to-cart a .amount').remove();
+		// var old_text_cart = $('a.cart-info.full').text();
+		// var new_text_cart = old_text_cart.replace("Cart:", "עגלת קניות");
+		// $('a.cart-info.full').text(new_text_cart);
 
 		var value = $('.search-results-title').text(); 
 		value = value.replace("Search results for", "תוצאות החיפוש שלך ל : ");
