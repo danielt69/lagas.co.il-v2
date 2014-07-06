@@ -128,7 +128,7 @@ $(document).ready(function() {
 	    max_rows: 1,
 	    speed: 700,
 	    direction: 'up',
-	    duration: 9000,
+	    duration: 3000,
 	    autostart: 1,
 	    pauseOnHover: 1,
 	    nextButton: $(".newsticker .fa .fa-chevron-down"),
