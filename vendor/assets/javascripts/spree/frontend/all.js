@@ -90,7 +90,7 @@ $( document ).ready(function() {
 	$('a.cart-info.full').text('עגלת קניות');
 	$('a.cart-info.empty').text('עגלת קניות');
 	
-	$('select#order_bill_address_attributes_country_id option[value=22]').attr('selected','selected');
+	// $('select#order_bill_address_attributes_country_id option[value=22]').attr('selected','selected');
 });
 
 
