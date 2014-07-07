@@ -73,10 +73,7 @@ $( document ).ready(function() {
 	$('[data-hook="login"] a').eq(0).text("צור משתמש חדש");
 	$('[data-hook="login"] a').eq(1).text("שחכתי סיסמא");
 
-	//$('nav #main-nav-bar li#link-to-cart a').text('עגלת קניות');      //not-working
-	var fixed_cart = $("nav #main-nav-bar li#link-to-cart a").html().replace("Cart","עגלת קניות");
-	$("nav #main-nav-bar li#link-to-cart a").html(fixed_cart)
-
+	$('nav #main-nav-bar li#link-to-cart a').text('עגלת קניות');
 	$('#checkout-link').text("הזמן עכשיו");
 	$('#clear_cart_link input').val("רוקן עגלה");
 	$('p#clear_cart_link a').text("המשך קנייה");
@@ -90,8 +87,8 @@ $( document ).ready(function() {
 	});
 
 	$('nav #main-nav-bar li#link-to-cart a .amount').remove();
-	//$('a.cart-info.full').text('עגלת קניות');
-	//$('a.cart-info.empty').text('עגלת קניות');
+	$('a.cart-info.full').text('עגלת קניות');
+	$('a.cart-info.empty').text('עגלת קניות');
 	
 });
 
