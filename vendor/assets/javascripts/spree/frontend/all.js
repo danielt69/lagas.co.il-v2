@@ -73,7 +73,7 @@ $( document ).ready(function() {
 	$('[data-hook="login"] a').eq(0).text("צור משתמש חדש");
 	$('[data-hook="login"] a').eq(1).text("שחכתי סיסמא");
 
-	$('nav #main-nav-bar li#link-to-cart a').text('עגלת קניות');
+	//$('nav #main-nav-bar li#link-to-cart a').text('עגלת קניות');      //not-working
 	$('#checkout-link').text("הזמן עכשיו");
 	$('#clear_cart_link input').val("רוקן עגלה");
 	$('p#clear_cart_link a').text("המשך קנייה");
