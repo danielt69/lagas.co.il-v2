@@ -90,8 +90,8 @@ $( document ).ready(function() {
 	});
 
 	$('nav #main-nav-bar li#link-to-cart a .amount').remove();
-	$('a.cart-info.full').text('עגלת קניות');
-	$('a.cart-info.empty').text('עגלת קניות');
+	//$('a.cart-info.full').text('עגלת קניות');
+	//$('a.cart-info.empty').text('עגלת קניות');
 	
 });
 
