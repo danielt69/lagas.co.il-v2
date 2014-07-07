@@ -962,6 +962,18 @@ div.bottom_wrapper ul.newsticker p {
 }
 /*end newsticker *= require spree/frontend/spree_paypal_express
 */
+
+nav #main-nav-bar li#link-to-cart a {
+	font-size: 0;
+}
+nav #main-nav-bar li#link-to-cart a:after {
+	content: "עגלת קניות";
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding-right: 10px;
+	font-size: 14px;
+}
 /*----------------------[end Homepage]---------------------- *= require spree/frontend/spree_static_content
  *= require spree/frontend/spree_paypal_express
 */
