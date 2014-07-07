@@ -1185,6 +1185,9 @@ fieldset#shipping_method legend {
 .progress-steps li.completed:hover {
 	background-color: #de232d;
 }
+table.stock-contents {
+	width: 100%;
+}
 /*----------------------[end Checkout]---------------------- */
 /*=====================================================================================================================================*/
 
