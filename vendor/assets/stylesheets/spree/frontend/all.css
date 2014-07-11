@@ -583,6 +583,7 @@ div#thumbnails {
 	top: 102%;
 	width: 100%;
 	right: -6px;
+	overflow: hidden;
 }
 div.pci_iamge {
 	width: 435px;
