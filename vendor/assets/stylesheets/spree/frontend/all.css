@@ -777,7 +777,9 @@ div.optimal_image {
 */
 /*----------------------[Products]--------------------------  *= require spree/frontend/spree_paypal_express
 */
-
+ul#products {
+	margin-top: 50px;
+}
 /*----------------------[end Products]---------------------- *= require spree/frontend/spree_paypal_express
 */
 /*=====================================================================================================================================  *= require spree/frontend/spree_paypal_express

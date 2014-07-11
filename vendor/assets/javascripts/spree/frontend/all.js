@@ -76,7 +76,7 @@ $( document ).ready(function() {
 	$('nav #main-nav-bar li#link-to-cart a').text('עגלת קניות');
 	$('#checkout-link').text("הזמן עכשיו");
 	$('#clear_cart_link input').val("רוקן עגלה");
-	$('p#clear_cart_link a').text("המשך קנייה");
+	$('p#clear_cart_link a').text("חזרה להמשך קניות באתר ");
 	$('button#update-button').text("רענן");
 	$('.form-buttons input.continue.button.primary').val('המשך קנייה');
 	$('fieldset#shipping_method legend').text("משלוח");
