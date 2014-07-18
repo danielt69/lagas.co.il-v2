@@ -984,7 +984,7 @@ div.bottom_wrapper .left span {
 	text-decoration: underline;
 }
 ul.items {
-	width: 1000px;
+	width: auto;
 }
 
 /*newsticker *= require spree/frontend/spree_paypal_express
