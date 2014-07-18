@@ -406,7 +406,10 @@ footer#footer div.logo_ref {
 	float: left;
 	margin: 5px;
 }
-
+footer#footer div.logo_ref a {
+	margin: 0 6px;
+	font-weight: bold;
+}
 /*form style *= require spree/frontend/spree_paypal_express
 */
 form#footer_new_contact_us_contact {
@@ -885,7 +888,7 @@ ul.items:after {
 div.bottom_wrapper {
 	height: 255px;
 	width: 100%;
-	margin: 57px 0;
+	margin: 57px 0 30px;
 }
 div.bottom_wrapper .right {
 	float: right;
@@ -976,6 +979,9 @@ nav #main-nav-bar li#link-to-cart a:after {
 	top: 0;
 	padding-right: 10px;
 	font-size: 14px;
+}
+div.fb-like-box.fb_iframe_widget {
+	margin-bottom: 20px;
 }
 /*----------------------[end Homepage]---------------------- *= require spree/frontend/spree_static_content
  *= require spree/frontend/spree_paypal_express
