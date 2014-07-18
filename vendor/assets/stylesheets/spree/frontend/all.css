@@ -988,6 +988,7 @@ div.bottom_wrapper .left span {
 ul.items {
 	width: auto;
 	text-align: center;
+	padding: 0;
 }
 
 /*newsticker *= require spree/frontend/spree_paypal_express
