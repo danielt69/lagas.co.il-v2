@@ -809,14 +809,6 @@ div.homepage {
 ul.items li {
 	width: 283px;
 	height: 283px;
-	-webkit-border-radius: 142px 141px 141px 142px/141px 141px 142px 142px;
-	-moz-border-radius: 142px 141px 141px 142px/141px 141px 142px 142px;
-	border-radius: 142px 141px 141px 142px/141px 141px 142px 142px;
-	background-color: #fff;
-	-webkit-box-shadow: 0 0 7px rgba(99,99,99,.45);
-	-moz-box-shadow: 0 0 7px rgba(99,99,99,.45);
-	box-shadow: 0 0 7px rgba(99,99,99,.45);
-	border: solid 1px #acacac;
 	position: relative;
 	text-align: center;
 }
@@ -865,6 +857,7 @@ ul.items li span {
 }
 ul.items li a {
 	display: block;
+	height: 100%;
 }
 ul.items > li > a:hover .pr_image {
 	opacity: 0;
@@ -885,8 +878,8 @@ ul.items > li > a .pr_image {
 	-moz-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;
 	position: relative;
-	width: 220px;
-	height: 220px;
+	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 }
 ul.items > li > a:hover .content {
@@ -918,6 +911,17 @@ ul.items > li > a .content {
 	border-radius: 50%;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+}
+ul.items > li > a .content,
+ul.items > li > a .pr_image {
+		-webkit-border-radius: 142px 141px 141px 142px/141px 141px 142px 142px;
+	-moz-border-radius: 142px 141px 141px 142px/141px 141px 142px 142px;
+	border-radius: 142px 141px 141px 142px/141px 141px 142px 142px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 7px rgba(99,99,99,.45);
+	-moz-box-shadow: 0 0 7px rgba(99,99,99,.45);
+	box-shadow: 0 0 7px rgba(99,99,99,.45);
+	border: solid 1px #acacac;
 }
 
 ul.items:after {
