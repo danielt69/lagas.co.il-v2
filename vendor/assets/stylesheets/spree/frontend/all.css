@@ -641,6 +641,7 @@ div.main_bottom {
 ul.links_separat {
 	width: 100%;
 	height: 33px;
+	position: relative;
 	border-bottom: 1px solid #959595;
 }
 ul.links_separat li.pos_1 {
@@ -782,6 +783,11 @@ div.optimal_image {
 */
 ul#products {
 	margin-top: 50px;
+}
+div.fb-like.fb_iframe_widget {
+	position: absolute;
+	bottom: 5px;
+	left: 6px;
 }
 /*----------------------[end Products]---------------------- *= require spree/frontend/spree_paypal_express
 */
