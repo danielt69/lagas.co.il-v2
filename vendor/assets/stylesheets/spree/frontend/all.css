@@ -811,6 +811,8 @@ ul.items li {
 	height: 283px;
 	position: relative;
 	text-align: center;
+	float: none;
+	display: inline-block;
 }
 ul li.main_item1 .pr_image {
 	background: url(/images/image_item1.png) no-repeat 0px 0px;
@@ -822,7 +824,7 @@ ul li.main_item3 .pr_image {
 	background: url(/images/image_item3.png) no-repeat 0px 0px;
 }
 ul li.main_item2 {
-	margin: 0 50px;
+	margin: 0 40px;
 }
 ul.items li h3 {
 	font-size: 19px;
@@ -985,6 +987,7 @@ div.bottom_wrapper .left span {
 }
 ul.items {
 	width: auto;
+	text-align: center;
 }
 
 /*newsticker *= require spree/frontend/spree_paypal_express
