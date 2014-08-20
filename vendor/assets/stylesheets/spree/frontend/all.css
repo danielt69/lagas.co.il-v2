@@ -1268,6 +1268,12 @@ h2.heading {
 	float: none;
 	list-style: inherit;
 }
+.optimal_image {
+	width: 100%;
+}
+.optimal_image table {
+	border: 0px solid rgba(0, 0, 0, 0);
+}
 /*end extra pages *= require spree/frontend/spree_paypal_express
 */
 
