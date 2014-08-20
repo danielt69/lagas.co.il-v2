@@ -1263,6 +1263,11 @@ h2.heading {
 	text-align: center;
 	padding: 20px 0;
 }
+
+.ckeditor_fix li {
+	float: none;
+	list-style: inherit;
+}
 /*end extra pages *= require spree/frontend/spree_paypal_express
 */
 

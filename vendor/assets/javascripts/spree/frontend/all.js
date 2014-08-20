@@ -91,6 +91,11 @@ $( document ).ready(function() {
 	$('a.cart-info.empty').text('עגלת קניות');
 	
 	$('select#order_bill_address_attributes_country_id option[value=22]').attr('selected','selected');
+
+	$(".ckeditor_fix").each(function () { 
+		var text = $(this).text(); 
+		$(this).html(text); 
+	});
 });
 
 
