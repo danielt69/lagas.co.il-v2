@@ -1264,7 +1264,7 @@ h2.heading {
 	padding: 20px 0;
 }
 
-.ckeditor_fix {
+.ckeditor_fix li {
 	float: none;
 	list-style: inherit;
 }
