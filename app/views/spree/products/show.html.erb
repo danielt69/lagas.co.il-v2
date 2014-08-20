@@ -66,12 +66,11 @@
 
     <div class="content_how_it_works active">
       <div class="right_content">
-
+      <div class="right">
         <div id="how_it_works_tab" class="how_it_works_tab ckeditor_fix"><%= @product.how_it_works_tab %></div>
-        <div id="video_link" class="embed ckeditor_fix"><%= @product.video_link %></div>
-        <div id="details_tab" class="details_tab ckeditor_fix"><%= @product.details_tab %></div>
-
-        <h3>GASLEVEL STICK מתאים בדיוק ל: </h3>
+      </div>
+       
+        <!-- <h3>GASLEVEL STICK מתאים בדיוק ל: </h3>
         
         <ul class="good_for">
           <li class="pos_0">
@@ -95,20 +94,22 @@
 
         <div class="content_image">
           <img src="/images/content_image_stick.png">
-        </div>
+        </div> -->
 
       </div>
       <div class="left_video">
-          <iframe class="classic_video" width="428" height="243" src="//www.youtube.com/embed/kQ6ImO5VYXw" frameborder="0" allowfullscreen></iframe>
+         <div id="video_link" class="embed ckeditor_fix"><%= @product.video_link %></div>
 
 <!--           <iframe class="stick_video" src="http://pdl.vimeocdn.com/60296/568/178045114.mp4?token2=1404077960_cbbc0f55a1786d8e8900454187bb99a6&aksessionid=28b524c9096726a3"></iframe> -->
 
-          <iframe class="stick_video" src="//player.vimeo.com/video/70615294" width="428" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+         <!--  <iframe class="stick_video" src="//player.vimeo.com/video/70615294" width="428" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
       </div>
     </div>
     <div class="content_technical_details">
+       <div id="details_tab" class="details_tab ckeditor_fix"><%= @product.details_tab %></div>
 
-      <div class="classic_item">
+      <!-- <div class="classic_item">
+      
         <h3>מפרט טכני</h3>
         <ul>
           <li class="pos_0">
@@ -145,7 +146,7 @@
             <span class="first">במקרה שהמיכל מלא</span>
             <span class="secend">אור ירוק</span>
             <img src="/images/green.png">
-          </div>
+          </div> -->
 
       </div>
     </div>
