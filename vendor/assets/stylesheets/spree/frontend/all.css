@@ -238,7 +238,7 @@ ul.main_bar li {
 	position: relative;
 	z-index: 1;
 	display: inline-block;
-	float: none;
+	float: right;
 }
 ul.main_bar li:first-child a {
 	padding: 0;
@@ -248,16 +248,16 @@ ul.main_bar li a {
 	display: block;
 	width: auto;
 	padding: 0;
-	margin-top: 12px;
+	margin-top: 11px;
 	border-right: 1px solid #ccc;
 }
 ul.main_bar li a h3 {
 	color: #fff;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: normal;
 	text-align: center;
-	height: 20px;
-	line-height: 16px;
+	height: 19px;
+	line-height: 15px;
 }
 nav#top-nav-bar ul li.pos_1 {
 	padding-right: 6px;
