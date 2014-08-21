@@ -233,7 +233,7 @@ ul.main_bar {
 	text-align: center;
 }
 ul.main_bar li {
-	width: 33%;
+	width: 25%;
 	height: 100%;
 	position: relative;
 	z-index: 1;
