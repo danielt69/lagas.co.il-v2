@@ -1274,6 +1274,9 @@ h2.heading {
 .optimal_image table {
 	border: 0px solid rgba(0, 0, 0, 0);
 }
+ul#similar_items_by_taxon {
+	display: none;
+}
 /*end extra pages *= require spree/frontend/spree_paypal_express
 */
 
