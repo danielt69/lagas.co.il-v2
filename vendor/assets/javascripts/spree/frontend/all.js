@@ -96,6 +96,26 @@ $( document ).ready(function() {
 		var text = $(this).text(); 
 		$(this).html(text); 
 	});
+
+	if ($('#video_link').is(':empty')&&$('#how_it_works_tab').is(':empty')) {
+		$('ul.links_separat li.pos_0').css('display','none');
+		$('.div.content_how_it_works').css('display','none');
+		$('.content_technical_details').addClass('active');
+		$('.content_how_it_works').removeClass('active');
+	}
+
+	if($('#details_tab').is(':empty')){
+		$('ul.links_separat li.pos_1').css('display','none');
+		$('.content_how_it_works').addClass('active');
+	  	$('.content_technical_details').removeClass('active');
+	  	$('.content_technical_details').css('display','none');
+	}
+	if ($('#video_link').is(':empty') && $('#how_it_works_tab').is(':empty') && $('#details_tab').is(':empty')){
+	  	var x = $('.links_separat').detach();
+		$('.main_bottom').before(x);
+		$('.main_bottom').css('display','none');
+	}
+
 });
 
 
