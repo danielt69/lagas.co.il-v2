@@ -274,6 +274,9 @@ ul.main_bar li:hover:before {
 div.description_div {
 	min-height: 175px;
 }
+nav#breadcrumbs {
+	display: none;
+}
 /*----------------------[end Header]---------------------- *= require spree/frontend/spree_static_content
  *= require spree/frontend/spree_paypal_express
 */
