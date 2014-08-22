@@ -277,6 +277,7 @@ div.description_div {
 nav#breadcrumbs {
 	display: none;
 }
+
 /*----------------------[end Header]---------------------- *= require spree/frontend/spree_static_content
  *= require spree/frontend/spree_paypal_express
 */
@@ -552,7 +553,7 @@ div#product-description #old_price {
 	top: 310px;
 	color: #959595;
 	font-size: 21px;
-	right: 34px;
+	right: 0px;
 	text-decoration: line-through;
 }
 .add-to-cart #quantity {
