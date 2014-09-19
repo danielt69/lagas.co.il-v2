@@ -273,6 +273,8 @@ ul.main_bar li:hover:before {
 }
 div.description_div {
 	min-height: 175px;
+	max-height: 215px;
+	overflow: hidden;
 }
 nav#breadcrumbs {
 	display: none;
@@ -770,6 +772,7 @@ div.filled_stick_image {
 div.optimal_image {
 	float: right;
 }
+
 /* button OFF  *= require spree/frontend/spree_paypal_express
 */
 /*#product-description .add-to-cart:after {
